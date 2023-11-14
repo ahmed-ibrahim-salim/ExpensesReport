@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF94C1292B04057500892C29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C1282B04057500892C29 /* main.swift */; };
+		EF94C1362B04068000892C29 /* ExpensesReportTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C1352B04068000892C29 /* ExpensesReportTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,19 @@
 /* Begin PBXFileReference section */
 		EF94C1252B04057500892C29 /* ExpensesReport */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExpensesReport; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF94C1282B04057500892C29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF94C1332B04068000892C29 /* ExpensesReportTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpensesReportTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF94C1352B04068000892C29 /* ExpensesReportTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesReportTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF94C1222B04057500892C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF94C1302B04068000892C29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				EF94C1272B04057500892C29 /* ExpensesReport */,
+				EF94C1342B04068000892C29 /* ExpensesReportTest */,
 				EF94C1262B04057500892C29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				EF94C1252B04057500892C29 /* ExpensesReport */,
+				EF94C1332B04068000892C29 /* ExpensesReportTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +72,14 @@
 				EF94C1282B04057500892C29 /* main.swift */,
 			);
 			path = ExpensesReport;
+			sourceTree = "<group>";
+		};
+		EF94C1342B04068000892C29 /* ExpensesReportTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF94C1352B04068000892C29 /* ExpensesReportTest.swift */,
+			);
+			path = ExpensesReportTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +102,23 @@
 			productReference = EF94C1252B04057500892C29 /* ExpensesReport */;
 			productType = "com.apple.product-type.tool";
 		};
+		EF94C1322B04068000892C29 /* ExpensesReportTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF94C1392B04068000892C29 /* Build configuration list for PBXNativeTarget "ExpensesReportTest" */;
+			buildPhases = (
+				EF94C12F2B04068000892C29 /* Sources */,
+				EF94C1302B04068000892C29 /* Frameworks */,
+				EF94C1312B04068000892C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpensesReportTest;
+			productName = ExpensesReportTest;
+			productReference = EF94C1332B04068000892C29 /* ExpensesReportTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +130,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					EF94C1242B04057500892C29 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					EF94C1322B04068000892C29 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -111,9 +151,20 @@
 			projectRoot = "";
 			targets = (
 				EF94C1242B04057500892C29 /* ExpensesReport */,
+				EF94C1322B04068000892C29 /* ExpensesReportTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF94C1312B04068000892C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF94C1212B04057500892C29 /* Sources */ = {
@@ -121,6 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF94C1292B04057500892C29 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF94C12F2B04068000892C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF94C1362B04068000892C29 /* ExpensesReportTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +321,36 @@
 			};
 			name = Release;
 		};
+		EF94C1372B04068000892C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7MW2XDAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justme.ExpensesReportTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF94C1382B04068000892C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7MW2XDAX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justme.ExpensesReportTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +368,15 @@
 			buildConfigurations = (
 				EF94C12D2B04057500892C29 /* Debug */,
 				EF94C12E2B04057500892C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF94C1392B04068000892C29 /* Build configuration list for PBXNativeTarget "ExpensesReportTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF94C1372B04068000892C29 /* Debug */,
+				EF94C1382B04068000892C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
