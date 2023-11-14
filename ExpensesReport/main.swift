@@ -7,10 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
-import Foundation
-
 enum ExpenseType {
     case breakfast
     case dinner
@@ -48,3 +44,18 @@ class ExpenseReport {
         print("Total Expenses: \(total)")
     }
 }
+
+let report = ExpenseReport()
+report.printReport(
+    expenses: [
+        .init(type: .breakfast, amount: 10),
+        .init(type: .dinner, amount: 20),
+        .init(type: .dinner, amount: 20),
+        .init(type: .carRental, amount: 100)
+    ]
+)
+/*
+ 1 - long method
+ 2 - OCP voilation
+ 3 - primitive obsession
+ */
