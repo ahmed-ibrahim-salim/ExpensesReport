@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647FE1C32B04167E00595D35 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C1282B04057500892C29 /* main.swift */; };
 		EF94C1292B04057500892C29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C1282B04057500892C29 /* main.swift */; };
 		EF94C1362B04068000892C29 /* ExpensesReportTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C1352B04068000892C29 /* ExpensesReportTest.swift */; };
 /* End PBXBuildFile section */
@@ -181,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647FE1C32B04167E00595D35 /* main.swift in Sources */,
 				EF94C1362B04068000892C29 /* ExpensesReportTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZBU42828U;
 				ENABLE_HARDENED_RUNTIME = YES;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "practice.expenses-report";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.expenses-report";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -322,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZBU42828U;
 				ENABLE_HARDENED_RUNTIME = YES;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "practice.expenses-report";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.expenses-report";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -334,10 +336,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AJ7MW2XDAX;
+				DEVELOPMENT_TEAM = XZBU42828U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = justme.ExpensesReportTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.expenses-report";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -349,10 +351,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AJ7MW2XDAX;
+				DEVELOPMENT_TEAM = XZBU42828U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = justme.ExpensesReportTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.expenses-report";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
